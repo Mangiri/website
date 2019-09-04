@@ -734,6 +734,148 @@ header {
 }
 
 
+/*CONTACT*/
+span .icons-black{
+  color:black;
+}
+
+#black-link{
+  color:black;
+}
+section .container{
+  overflow:auto;
+  background-color:white;
+}
+
+#holder1 {
+  box-sizing: border-box;
+  width: 45%;
+  float:left;
+  color:black;
+  margin-left:7%;
+}
+
+#holder2{
+box-sizing: border-box;
+width: 45%;
+float:left;
+}
+
+
+
+.contact-form {
+    width: 80%;
+    /*margin: 0 auto;*/
+}
+
+.span-contact{
+  margin-right:50px;
+  color:black;
+
+}
+
+.section-plans{
+    background-color:black;
+    height:100%;
+    width: 100%;
+}
+
+.social-img{
+  margin-left:20px;
+}
+
+ .vision-black{
+  background-color:black;
+  margin:bottom:-100px;
+}
+
+/*input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom:20px;
+}*/
+
+.contact-input{
+
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom:20px;
+}
+
+#textarea-input {
+    height: 100px;
+}
+
+.btn-contact:link,
+.btn-contact:visited
+ {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 10px;
+    -webkit-transition: background-color 0.2s, border 0.2s, color 0.2s;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+    margin-left:170px;
+}
+
+.btn-full:link,
+.btn-full:visited
+{
+    background-color: black;
+    border: none;
+    color: #fff;
+    margin-right: 15px;
+    padding: 10px 30px;
+    display: inline-block;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn-contact:hover,
+.btn-contact:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+.vision-2-boxes{
+
+  width: 80%;
+  height: 300px;
+  /*margin-top: -130px;*/
+  display: flex;
+  flex-direction: row;
+}
+
+header #contact-header{
+  background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/kids3.png) !important;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/kids3.png)!important;
+  background-size: cover;
+  /*background-position: center;*/
+  height: 100vh;
+}
+
 /*MAKING THE SCREEN RESPONSIVE*/
 
 /* Big tablet to 1200px (widths smaller taht the 1140px row) */
